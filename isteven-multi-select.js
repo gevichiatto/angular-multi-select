@@ -948,7 +948,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
             }
             if ( typeof attrs.selectionMode !== 'undefined' && attrs.selectionMode.toUpperCase() === 'SINGLE' )  {
                 $scope.helperStatus[ 'all' ] = false;
-                $scope.helperStatus[ 'none' ] = false;
+                // $scope.helperStatus[ 'none' ] = false;
             }
 
             // helper button icons.. I guess you can use html tag here if you want to.
